@@ -1,11 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-import AdminRouter from "./Routes/AdminRouter";
+import AdminLayout from "./Routes/AdminLayout";
 
 
 function App() {
   return (
     <BrowserRouter>
-      <AdminRouter />
+      <AdminLayout />
     </BrowserRouter>
   );
 }

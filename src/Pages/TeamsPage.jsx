@@ -1,21 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 const TeamsPage = () => {
   return (
-    <div>
-      <h2>TeamsPage</h2>
-      <Link to="/">HomePage</Link> <br />
-      <Link to="/about">AboutPage</Link> <br />
-      <Link to="/careers">CareersPage</Link> <br />
-      <Link to="/contact">ContactPage</Link> <br />
-      <Link to="/about">AboutPage</Link> <br />
-      <Link to="/selectproject">SelectProject</Link> <br />
-      <Link to="/services">ServicePage</Link> <br />
-      <Link to="/ourteams">TeamsPage</Link> <br />
-      <Link to="/ourworks">WorkPage</Link> <br />
-    </div>
-  );
+    <div>TeamsPage</div>
+  )
 }
 
 export default TeamsPage
